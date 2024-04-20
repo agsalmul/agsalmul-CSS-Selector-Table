@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+    text-align: center;
+    background-color: rgb(142, 188, 139);
+}
+
+h1 {
+    font-weight: 800;
+    color: rgb(30,80,35)
+}
+
+h2 {
+    font-weight: 700;
+    color: rgb(90,70,120);
+}
+
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    font-weight: normal;
+    width: 700px;
+    border: 3px solid rgb(10,10,10);
+    margin: auto;
+
+}
+
+th,
+td {
+    border: 2px solid rgb(10,10,10);
+    color: rgb(15, 89, 22)
+}
+
+th {
+    font-weight: 800;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selectors and Specificity</title>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    </head>
+
+    <body>
+        <h1>CSS Selectors & Specificity </h1>
+        <section id="Selectors">
+            <h2>Table of CSS Selectors</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">HTML Syntax</th>
+                        <th scope="col">CSS Syntax</th>
+                    </tr>
+                    <tr>
+                        <td>Type</td>
+                        <td>&lt;example&gt;</td>
+                        <td>example {}</td>
+                    </tr>
+                    <tr>
+                        <td>Class</td>
+                        <td>class="example"</td>
+                        <td>.example {}</td>
+                    </tr>
+                    <tr>
+                        <td>ID</td>
+                        <td>id="example"</td>
+                        <td>#example {}</td>
+                    </tr>
+                </thead>
+            </table>
+
+        </section>
+
+        <section id="Specificity">
+            <h2>Table of Specificity</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Weight</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Syntax</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>ID Selector</td>
+                        <td>#example {}</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class Selector</td>
+                        <td>.example {}</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Type Selector</td>
+                        <td>example {}</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>No Value/General</td>
+                        <td> * {}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </body>
+</html>
